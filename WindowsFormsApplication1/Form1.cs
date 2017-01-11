@@ -21,5 +21,10 @@ namespace WindowsFormsApplication1
         {
             textBox1.AppendText("Hello World" + Environment.NewLine);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
